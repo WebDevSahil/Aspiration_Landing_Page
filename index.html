@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Aspiration Theme Landing Page</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="nav-bg">
+    <div class="container">
+      <div id="navbar">
+        <a href="#" class="logo">As<span class="text-un">piration</span></a>
+        <nav>
+          <div class="hamburger">
+            <img src="img/hamburger.svg" alt="">
+          </div>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CAUSES</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1>Give a hand to make the better world</h1>
+        <img class="play" src="img/play.svg" alt="Play">
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <div class="about-content">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nesciunt consequuntur perferendis
+          accusantium delectus rerum tenetur voluptatibus asperiores porro harum ab sint quos, impedit error, ratione
+          temporibus recusandae dolorem. Consequuntur, voluptates. Sint nobis saepe illo esse velit, atque magni
+          dolorem?</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer">
+    <div class="container">
+      <p>Copyright &copy; 2020</p>
+    </div>
+  </footer>
+
+  <script>
+    // Sticky menu background
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 150) {
+        document.querySelector('.nav-bg').style.background = 'rgba(0,0,0,0.9)';
+      } else {
+        document.querySelector('.nav-bg').style.background = 'transparent';
+      }
+    });
+  </script>
+</body>
+
+</html>
