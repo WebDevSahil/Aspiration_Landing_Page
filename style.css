@@ -34,6 +34,7 @@ ul {
   background: transparent;
   position: sticky;
   top: 0;
+  transition: .5s cubic-bezier(.17,.67,.83,.67);
   z-index: 10;
 }
 
